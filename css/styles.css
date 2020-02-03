@@ -1,0 +1,28 @@
+body {
+    font-family: Helvetica;
+}
+
+input,
+button {
+    font-size: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: darkgrey;
+    padding: 5px;
+}
+
+.container {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+#results {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 30px;
+}
