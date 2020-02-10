@@ -62,7 +62,7 @@ function letterShift($string)
         $position = array_search($character, $alphabet);
         
         # If `position` is false, it's not in the alphabet, so include as is
-        if (!$position) {
+        if ($position === false) {
             $results .= $character;
         } else {
             # If `position` is 25, the letter is lowercase `z` so we loop back to 0 (`a`)
