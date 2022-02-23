@@ -1,4 +1,9 @@
-# Project 1 Example
+# Project 1
++ By: Susan Buck
++ Production URL: <http://e15p1.hesweb.dev>
 
-Live at <http://p1.dwa15.me>
+## Outside resources
+n/a
 
+## Notes for instructor
+n/a
