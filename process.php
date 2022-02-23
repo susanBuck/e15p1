@@ -19,9 +19,10 @@ header('location: index.php');
  */
 function isPalindrome($string)
 {
-    # Reduce string down to just letters a-z
+    # Reduce string to lowercase letters a-z, removing any special characters
     $string = preg_replace("/[^a-z]/", '', strtolower($string));
 
+    # Return true/false as to whether the string is the same forwards and backwards
     return strrev($string) == $string;
 }
 
