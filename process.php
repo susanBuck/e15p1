@@ -35,7 +35,7 @@ function vowelCount($string)
     # Split the string into an array of characters, all lowercase
     $characters = str_split(strtolower($string));
     
-    # Loop through each cahracter, incrementing count if it is a vowel
+    # Loop through each character, incrementing count if it is a vowel
     foreach ($characters as $character) {
         if (in_array($character, ['a','e','i','o','u'])) {
             $count++;

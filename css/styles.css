@@ -2,27 +2,45 @@ body {
     font-family: Helvetica;
 }
 
+h2 {
+    margin-top: 0;
+}
+
+main {
+    width: 500px;
+    margin: auto;
+}
+
+#instructions {
+    background-color: #eee;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+#results {
+    background-color: lightgreen;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#word {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 input,
 button {
     font-size: 20px;
+    padding: 10px;
+}
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 label {
     display: block;
     font-weight: bold;
-    text-transform: uppercase;
-    color: darkgrey;
-    padding: 5px;
-}
-
-.container {
-    width: 500px;
-    text-align: center;
-    margin: auto;
-}
-
-#results {
-    border: 1px solid black;
-    padding: 5px;
-    margin: 30px;
 }
