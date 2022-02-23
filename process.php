@@ -2,7 +2,7 @@
 
 session_start();
 
-$inputString = $_GET['inputString'];
+$inputString = $_POST['inputString'];
 
 $_SESSION['results'] = [
     'inputString' => $inputString,

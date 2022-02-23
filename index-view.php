@@ -23,7 +23,7 @@
                 <li>What the word would look like if every letter was shifted +1 places in the alphabet</li>
             </ul>
         </div>
-        <form method='GET' action='process.php'>
+        <form method='POST' action='process.php'>
 
             <label for='inputString'>Your word:</label>
             <input type='text' id='inputString' name='inputString' value='<?php echo $inputString ?? "" ?>'>
