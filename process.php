@@ -23,7 +23,7 @@ function isPalindrome($string)
     $string = preg_replace("/[^a-z]/", '', strtolower($string));
 
     # Return true/false as to whether the string is the same forwards and backwards
-    return strrev($string) == $string;
+    return strrev($string) == $string and $string != '';
 }
 
 /**
@@ -58,7 +58,6 @@ function letterShift($string)
 
     # Loop through each character in the input string
     foreach (str_split($string) as $character) {
-
         # Determine which position this character has in the alphabet
         $position = array_search($character, $alphabet);
         
